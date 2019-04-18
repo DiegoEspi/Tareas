@@ -1,13 +1,12 @@
-Nombre=input("Ingrese el nombre del participante: ")
-D=int(input("Ingrese la dificultad del piquero: "))
-jueces=7
-x=0
-i=0
-puntajes=[]
-for i in range(0,jueces) :
-    x=input("Ingrese puntaje del juez: ")
-    puntajes.append(x)
-puntajes.sort()
-puntajes.remove[0]
-puntajes.remove[6]
-print (puntajes)
+# Ejercicio N°3
+a=float(input("ingrese angulo 1: "))
+b=float(input("ingrese angulo 2: "))
+c=180-(a+b)
+if a==90 or b==90 or c==90:
+    print("es un triangulo rectangulo")
+elif a>90 or b>90 or c>90:
+    print("es un triangulo obtusangulo")
+elif a<90 or b<90 or c<90:
+    print("es un triangulo acutangulo")
+else:
+	print("Los angulos no son de un triangulo")
